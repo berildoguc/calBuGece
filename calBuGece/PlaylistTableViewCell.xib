@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlaylistTableViewCell" id="KGk-i7-Jjw" customClass="PlaylistTableViewCell" customModule="calBuGece" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXD-Lr-uba">
+                        <rect key="frame" x="35" y="8" width="250" height="28"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82e-km-OeR">
+                                <rect key="frame" x="12" y="8" width="198" height="12"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ekleme" translatesAutoresizingMaskIntoConstraints="NO" id="RFP-UD-1qi">
+                                <rect key="frame" x="218" y="2" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="S4E-dB-3tP"/>
+                                    <constraint firstAttribute="width" constant="24" id="bhW-68-hyG"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83529411764705885" green="0.84313725490196079" blue="0.88235294117647056" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="82e-km-OeR" firstAttribute="top" secondItem="cXD-Lr-uba" secondAttribute="top" constant="8" id="4bh-X0-0WU"/>
+                            <constraint firstItem="82e-km-OeR" firstAttribute="leading" secondItem="cXD-Lr-uba" secondAttribute="leading" constant="12" id="J0r-Kg-tCJ"/>
+                            <constraint firstItem="RFP-UD-1qi" firstAttribute="centerY" secondItem="cXD-Lr-uba" secondAttribute="centerY" id="Lqc-Y1-AJX"/>
+                            <constraint firstAttribute="bottom" secondItem="82e-km-OeR" secondAttribute="bottom" constant="8" id="OK5-Ps-j1E"/>
+                            <constraint firstItem="RFP-UD-1qi" firstAttribute="leading" secondItem="82e-km-OeR" secondAttribute="trailing" constant="8" id="hNm-8q-Z3S"/>
+                            <constraint firstAttribute="trailing" secondItem="RFP-UD-1qi" secondAttribute="trailing" constant="8" id="lgc-YF-cN2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="cXD-Lr-uba" secondAttribute="bottom" constant="8" id="EYI-aR-jKU"/>
+                    <constraint firstItem="cXD-Lr-uba" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="35" id="ZEE-EY-qxq"/>
+                    <constraint firstAttribute="trailing" secondItem="cXD-Lr-uba" secondAttribute="trailing" constant="35" id="Zb5-6G-mTj"/>
+                    <constraint firstItem="cXD-Lr-uba" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="wdV-Yd-rWM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="borderView" destination="cXD-Lr-uba" id="bAI-Se-8Vu"/>
+                <outlet property="nameLabel" destination="82e-km-OeR" id="Odp-jq-Ged"/>
+                <outlet property="playing" destination="RFP-UD-1qi" id="ccp-K3-GLP"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="147"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ekleme" width="526" height="526"/>
+    </resources>
+</document>

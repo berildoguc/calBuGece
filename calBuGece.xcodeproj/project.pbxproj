@@ -3,19 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30F3706516C1946B7F8685AA /* Pods_calBuGece.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B57B7A5FB2C3B63592D0817 /* Pods_calBuGece.framework */; };
+		71036F52247D4BA1007226EE /* GizlilikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F51247D4BA1007226EE /* GizlilikViewController.swift */; };
+		71036F54247D50EB007226EE /* SifremiUnuttumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F53247D50EB007226EE /* SifremiUnuttumViewController.swift */; };
+		71036F56247D78CA007226EE /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F55247D78CA007226EE /* PeopleViewController.swift */; };
+		71036F59247D7A22007226EE /* PlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F57247D7A22007226EE /* PlaylistTableViewCell.swift */; };
+		71036F5A247D7A22007226EE /* PlaylistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71036F58247D7A22007226EE /* PlaylistTableViewCell.xib */; };
+		71036F5C247D7DC2007226EE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F5B247D7DC2007226EE /* HomeViewController.swift */; };
+		71036F5E247D7DCF007226EE /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F5D247D7DCF007226EE /* PlaylistViewController.swift */; };
+		71036F60247D8A3C007226EE /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F5F247D8A3C007226EE /* TabBarViewController.swift */; };
 		71170600247C076F0010BA50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711705FF247C076F0010BA50 /* AppDelegate.swift */; };
 		71170602247C076F0010BA50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71170601247C076F0010BA50 /* SceneDelegate.swift */; };
 		71170604247C076F0010BA50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71170603247C076F0010BA50 /* ViewController.swift */; };
 		71170607247C076F0010BA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71170605247C076F0010BA50 /* Main.storyboard */; };
 		71170609247C07720010BA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71170608247C07720010BA50 /* Assets.xcassets */; };
 		7117060C247C07720010BA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7117060A247C07720010BA50 /* LaunchScreen.storyboard */; };
+		7145C74A247C33940004F88D /* GirisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C749247C33940004F88D /* GirisViewController.swift */; };
+		7145C74C247C34F20004F88D /* UyeOlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C74B247C34F20004F88D /* UyeOlViewController.swift */; };
+		7145C74E247C51CC0004F88D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C74D247C51CC0004F88D /* UIViewController.swift */; };
+		7145C771247C78530004F88D /* UyeOlDevamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C770247C78530004F88D /* UyeOlDevamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B57B7A5FB2C3B63592D0817 /* Pods_calBuGece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calBuGece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A5460F9CED51ED5701E899 /* Pods-calBuGece.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calBuGece.release.xcconfig"; path = "Target Support Files/Pods-calBuGece/Pods-calBuGece.release.xcconfig"; sourceTree = "<group>"; };
+		71036F51247D4BA1007226EE /* GizlilikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizlilikViewController.swift; sourceTree = "<group>"; };
+		71036F53247D50EB007226EE /* SifremiUnuttumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifremiUnuttumViewController.swift; sourceTree = "<group>"; };
+		71036F55247D78CA007226EE /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		71036F57247D7A22007226EE /* PlaylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		71036F58247D7A22007226EE /* PlaylistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistTableViewCell.xib; sourceTree = "<group>"; };
+		71036F5B247D7DC2007226EE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		71036F5D247D7DCF007226EE /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		71036F5F247D8A3C007226EE /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		711705FC247C076F0010BA50 /* calBuGece.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calBuGece.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		711705FF247C076F0010BA50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71170601247C076F0010BA50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,11 @@
 		71170608247C07720010BA50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7117060B247C07720010BA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7117060D247C07720010BA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7145C749247C33940004F88D /* GirisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisViewController.swift; sourceTree = "<group>"; };
+		7145C74B247C34F20004F88D /* UyeOlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UyeOlViewController.swift; sourceTree = "<group>"; };
+		7145C74D247C51CC0004F88D /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		7145C770247C78530004F88D /* UyeOlDevamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UyeOlDevamViewController.swift; sourceTree = "<group>"; };
+		941C5ADC894E1DB68460FF41 /* Pods-calBuGece.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calBuGece.debug.xcconfig"; path = "Target Support Files/Pods-calBuGece/Pods-calBuGece.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F3706516C1946B7F8685AA /* Pods_calBuGece.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		411FFA1F86DA14DC37AAE669 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				941C5ADC894E1DB68460FF41 /* Pods-calBuGece.debug.xcconfig */,
+				58A5460F9CED51ED5701E899 /* Pods-calBuGece.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		711705F3247C076F0010BA50 = {
 			isa = PBXGroup;
 			children = (
 				711705FE247C076F0010BA50 /* calBuGece */,
 				711705FD247C076F0010BA50 /* Products */,
+				411FFA1F86DA14DC37AAE669 /* Pods */,
+				CB80F80309BB49BEFBEEB0E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +98,41 @@
 			children = (
 				711705FF247C076F0010BA50 /* AppDelegate.swift */,
 				71170601247C076F0010BA50 /* SceneDelegate.swift */,
-				71170603247C076F0010BA50 /* ViewController.swift */,
+				7145C74F247C51FE0004F88D /* Controllers */,
 				71170605247C076F0010BA50 /* Main.storyboard */,
 				71170608247C07720010BA50 /* Assets.xcassets */,
 				7117060A247C07720010BA50 /* LaunchScreen.storyboard */,
 				7117060D247C07720010BA50 /* Info.plist */,
+				7145C74D247C51CC0004F88D /* UIViewController.swift */,
+				71036F57247D7A22007226EE /* PlaylistTableViewCell.swift */,
+				71036F58247D7A22007226EE /* PlaylistTableViewCell.xib */,
 			);
 			path = calBuGece;
+			sourceTree = "<group>";
+		};
+		7145C74F247C51FE0004F88D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71170603247C076F0010BA50 /* ViewController.swift */,
+				7145C749247C33940004F88D /* GirisViewController.swift */,
+				7145C74B247C34F20004F88D /* UyeOlViewController.swift */,
+				7145C770247C78530004F88D /* UyeOlDevamViewController.swift */,
+				71036F51247D4BA1007226EE /* GizlilikViewController.swift */,
+				71036F53247D50EB007226EE /* SifremiUnuttumViewController.swift */,
+				71036F55247D78CA007226EE /* PeopleViewController.swift */,
+				71036F5B247D7DC2007226EE /* HomeViewController.swift */,
+				71036F5D247D7DCF007226EE /* PlaylistViewController.swift */,
+				71036F5F247D8A3C007226EE /* TabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB80F80309BB49BEFBEEB0E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B57B7A5FB2C3B63592D0817 /* Pods_calBuGece.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71170610247C07720010BA50 /* Build configuration list for PBXNativeTarget "calBuGece" */;
 			buildPhases = (
+				FB243E0DA48CC7610AFD6045 /* [CP] Check Pods Manifest.lock */,
 				711705F8247C076F0010BA50 /* Sources */,
 				711705F9247C076F0010BA50 /* Frameworks */,
 				711705FA247C076F0010BA50 /* Resources */,
+				320BFC6E06CCACB0742EEB9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +198,73 @@
 				7117060C247C07720010BA50 /* LaunchScreen.storyboard in Resources */,
 				71170609247C07720010BA50 /* Assets.xcassets in Resources */,
 				71170607247C076F0010BA50 /* Main.storyboard in Resources */,
+				71036F5A247D7A22007226EE /* PlaylistTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		320BFC6E06CCACB0742EEB9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calBuGece/Pods-calBuGece-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calBuGece/Pods-calBuGece-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-calBuGece/Pods-calBuGece-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB243E0DA48CC7610AFD6045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calBuGece-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		711705F8247C076F0010BA50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71036F54247D50EB007226EE /* SifremiUnuttumViewController.swift in Sources */,
+				7145C74C247C34F20004F88D /* UyeOlViewController.swift in Sources */,
+				71036F59247D7A22007226EE /* PlaylistTableViewCell.swift in Sources */,
 				71170604247C076F0010BA50 /* ViewController.swift in Sources */,
+				71036F60247D8A3C007226EE /* TabBarViewController.swift in Sources */,
+				71036F5E247D7DCF007226EE /* PlaylistViewController.swift in Sources */,
+				7145C74E247C51CC0004F88D /* UIViewController.swift in Sources */,
+				7145C74A247C33940004F88D /* GirisViewController.swift in Sources */,
+				71036F56247D78CA007226EE /* PeopleViewController.swift in Sources */,
+				7145C771247C78530004F88D /* UyeOlDevamViewController.swift in Sources */,
+				71036F52247D4BA1007226EE /* GizlilikViewController.swift in Sources */,
 				71170600247C076F0010BA50 /* AppDelegate.swift in Sources */,
 				71170602247C076F0010BA50 /* SceneDelegate.swift in Sources */,
+				71036F5C247D7DC2007226EE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +406,17 @@
 		};
 		71170611247C07720010BA50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941C5ADC894E1DB68460FF41 /* Pods-calBuGece.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B69476M3HC;
+				DEVELOPMENT_TEAM = KN97WCCR39;
 				INFOPLIST_FILE = calBuGece/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.beril.calBuGece;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berildoguc.calBuGece;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,16 +425,17 @@
 		};
 		71170612247C07720010BA50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A5460F9CED51ED5701E899 /* Pods-calBuGece.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B69476M3HC;
+				DEVELOPMENT_TEAM = KN97WCCR39;
 				INFOPLIST_FILE = calBuGece/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.beril.calBuGece;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berildoguc.calBuGece;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
