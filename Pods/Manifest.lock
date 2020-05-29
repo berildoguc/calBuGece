@@ -1,0 +1,36 @@
+PODS:
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - M13Checkbox (3.4.0)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+  - VBRRollingPit (1.0.1)
+
+DEPENDENCIES:
+  - FlagPhoneNumber
+  - IQKeyboardManagerSwift
+  - M13Checkbox
+  - SwiftMessages
+  - VBRRollingPit
+
+SPEC REPOS:
+  trunk:
+    - FlagPhoneNumber
+    - IQKeyboardManagerSwift
+    - M13Checkbox
+    - SwiftMessages
+    - VBRRollingPit
+
+SPEC CHECKSUMS:
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+  VBRRollingPit: 62a79cc663aeea6a196878b3a907056617f96b6a
+
+PODFILE CHECKSUM: 7ec0e2c70b6f637a5f12d471d76bde2be3fcaedd
+
+COCOAPODS: 1.9.2
