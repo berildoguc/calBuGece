@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		30F3706516C1946B7F8685AA /* Pods_calBuGece.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B57B7A5FB2C3B63592D0817 /* Pods_calBuGece.framework */; };
+		342865C124812866000B6F90 /* SpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342865C024812866000B6F90 /* SpotifyViewController.swift */; };
+		34AA3E91247F1F2400BF124C /* AyarlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA3E90247F1F2400BF124C /* AyarlarViewController.swift */; };
+		34CBE101247FEB4A00379AF3 /* SifreDegistirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE100247FEB4A00379AF3 /* SifreDegistirViewController.swift */; };
 		71036F52247D4BA1007226EE /* GizlilikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F51247D4BA1007226EE /* GizlilikViewController.swift */; };
 		71036F54247D50EB007226EE /* SifremiUnuttumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F53247D50EB007226EE /* SifremiUnuttumViewController.swift */; };
 		71036F56247D78CA007226EE /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71036F55247D78CA007226EE /* PeopleViewController.swift */; };
@@ -30,6 +33,9 @@
 
 /* Begin PBXFileReference section */
 		2B57B7A5FB2C3B63592D0817 /* Pods_calBuGece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calBuGece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		342865C024812866000B6F90 /* SpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyViewController.swift; sourceTree = "<group>"; };
+		34AA3E90247F1F2400BF124C /* AyarlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarViewController.swift; sourceTree = "<group>"; };
+		34CBE100247FEB4A00379AF3 /* SifreDegistirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifreDegistirViewController.swift; sourceTree = "<group>"; };
 		58A5460F9CED51ED5701E899 /* Pods-calBuGece.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calBuGece.release.xcconfig"; path = "Target Support Files/Pods-calBuGece/Pods-calBuGece.release.xcconfig"; sourceTree = "<group>"; };
 		71036F51247D4BA1007226EE /* GizlilikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizlilikViewController.swift; sourceTree = "<group>"; };
 		71036F53247D50EB007226EE /* SifremiUnuttumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifremiUnuttumViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +129,9 @@
 				71036F5B247D7DC2007226EE /* HomeViewController.swift */,
 				71036F5D247D7DCF007226EE /* PlaylistViewController.swift */,
 				71036F5F247D8A3C007226EE /* TabBarViewController.swift */,
+				34AA3E90247F1F2400BF124C /* AyarlarViewController.swift */,
+				34CBE100247FEB4A00379AF3 /* SifreDegistirViewController.swift */,
+				342865C024812866000B6F90 /* SpotifyViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71036F54247D50EB007226EE /* SifremiUnuttumViewController.swift in Sources */,
+				34AA3E91247F1F2400BF124C /* AyarlarViewController.swift in Sources */,
 				7145C74C247C34F20004F88D /* UyeOlViewController.swift in Sources */,
 				71036F59247D7A22007226EE /* PlaylistTableViewCell.swift in Sources */,
 				71170604247C076F0010BA50 /* ViewController.swift in Sources */,
@@ -260,9 +270,11 @@
 				7145C74E247C51CC0004F88D /* UIViewController.swift in Sources */,
 				7145C74A247C33940004F88D /* GirisViewController.swift in Sources */,
 				71036F56247D78CA007226EE /* PeopleViewController.swift in Sources */,
+				342865C124812866000B6F90 /* SpotifyViewController.swift in Sources */,
 				7145C771247C78530004F88D /* UyeOlDevamViewController.swift in Sources */,
 				71036F52247D4BA1007226EE /* GizlilikViewController.swift in Sources */,
 				71170600247C076F0010BA50 /* AppDelegate.swift in Sources */,
+				34CBE101247FEB4A00379AF3 /* SifreDegistirViewController.swift in Sources */,
 				71170602247C076F0010BA50 /* SceneDelegate.swift in Sources */,
 				71036F5C247D7DC2007226EE /* HomeViewController.swift in Sources */,
 			);

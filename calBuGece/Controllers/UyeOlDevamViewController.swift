@@ -17,8 +17,34 @@ class UyeOlDevamViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var ileributton2: UIButton!
     @IBOutlet weak var checkbox: M13Checkbox!
+    @IBOutlet weak var isim: UILabel!
+    @IBOutlet weak var sifre: UILabel!
+    @IBOutlet weak var foto: UILabel!
+    @IBOutlet weak var aciklama: UILabel!
     
     var selectedImage: UIImage!
+    
+    var identifier = ""
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        if (self.identifier == "kayit") || (self.identifier == ""){
+            isim.text = "İsim"
+            sifre.text = "Şifre (min. 5 karakter)"
+            imageView.isHidden = false
+            imageView.isUserInteractionEnabled = true
+            foto.isHidden = false
+            aciklama.text = "kendi fotoğrafını yüklediğinden emin ol, böylece arkadaşların seni tanıyabilir!"
+        } else if self.identifier == "meyhane" {
+            isim.text = "Vergi Numarası"
+            sifre.text = "Kuruluş Belgesi"
+            imageView.isHidden = true
+            imageView.isUserInteractionEnabled = false
+            foto.isHidden = true
+            aciklama.text = "birkaç gün içerisinde geri dönüş yapılıp, onay mesajın gönderilecektir!"
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

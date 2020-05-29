@@ -90,11 +90,7 @@ class PlaylistViewController: UIViewController, UITableViewDelegate, UITableView
         view.configureContent(title: "Şu an çalınan", body: cell2.nameLabel.text!, iconText: iconText)
         (view.backgroundView as? CornerRoundingView)?.cornerRadius = 10
         view.button?.isHidden = true
-//        config.eventListeners.append() { event in
-//            if case .didHide = event {
-//                self.dismiss(animated: true)
-//            }
-//        }
+
         SwiftMessages.show(config: config, view: view)
         
         
