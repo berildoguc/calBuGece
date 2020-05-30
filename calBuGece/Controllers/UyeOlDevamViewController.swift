@@ -90,7 +90,17 @@ class UyeOlDevamViewController: UIViewController {
     @IBAction func backButtonTapped(_ sender: UIButton) {
         self.dismiss(animated: true)
     }
-
+    
+    @IBAction func bitirTapped(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "bitir", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as? GirisViewController
+        if segue.identifier == "bitir"{
+            vc?.id = self.identifier
+        }
+    }
 }
 
  //MARK: Extension

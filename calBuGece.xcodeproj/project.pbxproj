@@ -29,6 +29,8 @@
 		7145C74C247C34F20004F88D /* UyeOlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C74B247C34F20004F88D /* UyeOlViewController.swift */; };
 		7145C74E247C51CC0004F88D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C74D247C51CC0004F88D /* UIViewController.swift */; };
 		7145C771247C78530004F88D /* UyeOlDevamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C770247C78530004F88D /* UyeOlDevamViewController.swift */; };
+		71F966472482A355000FB2AE /* IsteklerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F966462482A355000FB2AE /* IsteklerViewController.swift */; };
+		71F966492482A789000FB2AE /* istekDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F966482482A789000FB2AE /* istekDetayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		7145C74B247C34F20004F88D /* UyeOlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UyeOlViewController.swift; sourceTree = "<group>"; };
 		7145C74D247C51CC0004F88D /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		7145C770247C78530004F88D /* UyeOlDevamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UyeOlDevamViewController.swift; sourceTree = "<group>"; };
+		71F966462482A355000FB2AE /* IsteklerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsteklerViewController.swift; sourceTree = "<group>"; };
+		71F966482482A789000FB2AE /* istekDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = istekDetayViewController.swift; sourceTree = "<group>"; };
 		941C5ADC894E1DB68460FF41 /* Pods-calBuGece.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calBuGece.debug.xcconfig"; path = "Target Support Files/Pods-calBuGece/Pods-calBuGece.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +136,8 @@
 				34AA3E90247F1F2400BF124C /* AyarlarViewController.swift */,
 				34CBE100247FEB4A00379AF3 /* SifreDegistirViewController.swift */,
 				342865C024812866000B6F90 /* SpotifyViewController.swift */,
+				71F966462482A355000FB2AE /* IsteklerViewController.swift */,
+				71F966482482A789000FB2AE /* istekDetayViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				7145C74C247C34F20004F88D /* UyeOlViewController.swift in Sources */,
 				71036F59247D7A22007226EE /* PlaylistTableViewCell.swift in Sources */,
 				71170604247C076F0010BA50 /* ViewController.swift in Sources */,
+				71F966472482A355000FB2AE /* IsteklerViewController.swift in Sources */,
+				71F966492482A789000FB2AE /* istekDetayViewController.swift in Sources */,
 				71036F60247D8A3C007226EE /* TabBarViewController.swift in Sources */,
 				71036F5E247D7DCF007226EE /* PlaylistViewController.swift in Sources */,
 				7145C74E247C51CC0004F88D /* UIViewController.swift in Sources */,

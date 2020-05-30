@@ -24,6 +24,7 @@ class AyarlarViewController: UIViewController {
     @IBOutlet weak var view5: UIView!
     @IBOutlet weak var closeButton: UIButton!
     @IBOutlet weak var settings: UIImageView!
+    @IBOutlet weak var istek: UIButton!
     //@IBOutlet weak var baseView: UIView!
     
     var isDark = false
@@ -77,6 +78,18 @@ class AyarlarViewController: UIViewController {
         super.viewWillAppear(animated)
         
         changeUserInterfaceStyle()
+        
+        let id = UserDefaults.standard.string(forKey: "id")
+        
+        if id == "meyhane"{
+            karanlikMod.text = "Playlist Güncelle"
+            mySwitch.isHidden = true
+            istek.isHidden = false
+        } else{
+            karanlikMod.text = "Karanlık Mod"
+            mySwitch.isHidden = false
+            istek.isHidden = true
+        }
     }
     
     override func viewDidLoad() {
@@ -110,6 +123,9 @@ class AyarlarViewController: UIViewController {
         
         let silGesture = UITapGestureRecognizer(target: self, action: #selector(sil))
         view3.addGestureRecognizer(silGesture)
+        
+        let spotifyGesture = UITapGestureRecognizer(target: self, action: #selector(spotify))
+        view4.addGestureRecognizer(spotifyGesture)
     }
     
     @objc func sifre(){
@@ -152,6 +168,12 @@ class AyarlarViewController: UIViewController {
             SwiftMessages.hide(animated: true)
             self.performSegue(withIdentifier: "sil", sender: nil)
         })
+    }
+    
+    @objc func spotify(){
+        if karanlikMod.text == "Playlist Güncelle"{
+            self.performSegue(withIdentifier: "guncel", sender: nil)
+        }
     }
     
     @IBAction func darkMode(_ sender: UISwitch) {

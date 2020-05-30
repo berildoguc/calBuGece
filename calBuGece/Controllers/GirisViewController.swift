@@ -15,6 +15,8 @@ class GirisViewController: UIViewController {
     @IBOutlet weak var giris: UIButton!
     @IBOutlet var meyhaneLabel: UIView!
     
+    var id = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         hideKeyboardWhenTappedAround()
@@ -41,12 +43,18 @@ class GirisViewController: UIViewController {
         self.performSegue(withIdentifier: "kayit", sender: nil)
     }
     
+    @IBAction func girisTapped(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "giris", sender: nil)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as? UyeOlViewController
         if segue.identifier == "meyhane" {
             vc?.identifier = "meyhane"
         } else if segue.identifier == "kayit" {
             vc?.identifier = "kayit"
+        } else if segue.identifier == "giris"{
+            UserDefaults.standard.set(self.id, forKey: "id")
         }
     }
 }

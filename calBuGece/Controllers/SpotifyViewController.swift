@@ -30,7 +30,7 @@ class SpotifyViewController: UIViewController, WKUIDelegate, WKNavigationDelegat
         super.viewDidLoad()
 
         let webConfiguration = WKWebViewConfiguration()
-        webView = WKWebView(frame: CGRect( x: 0, y: 0, width: self.web.frame.width - 35, height: self.web.frame.height - 20 ), configuration: webConfiguration)
+        webView = WKWebView(frame: CGRect( x: 0, y: 0, width: self.web.frame.width - 35, height: self.web.frame.height - 50 ), configuration: webConfiguration)
         self.web.addSubview(webView)
         //webView.uiDelegate = self
         self.webView.allowsBackForwardNavigationGestures = true
