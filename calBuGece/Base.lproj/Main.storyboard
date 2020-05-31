@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -859,6 +859,7 @@
                                 <state key="normal" image="next"/>
                                 <connections>
                                     <action selector="backButtonTapped:" destination="leP-Nj-oli" eventType="touchUpInside" id="MP4-bd-jlv"/>
+                                    <action selector="close:" destination="Kxm-dz-H0m" eventType="touchUpInside" id="qSK-5X-MzE"/>
                                     <action selector="closeButtonTapped:" destination="TTO-Bi-QAP" eventType="touchUpInside" id="qzn-D2-VZi"/>
                                     <action selector="closeTapped:" destination="mUi-ng-Bul" eventType="touchUpInside" id="xHT-mF-R2A"/>
                                 </connections>
@@ -996,6 +997,7 @@
                                 </state>
                                 <connections>
                                     <action selector="bitirTapped:" destination="4Dl-aV-9Ft" eventType="touchUpInside" id="fQI-AR-q3x"/>
+                                    <action selector="kabul:" destination="Kxm-dz-H0m" eventType="touchUpInside" id="sel-F9-f9f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iiu-Nd-dAp">
@@ -1011,6 +1013,7 @@
                                 </state>
                                 <connections>
                                     <action selector="bitirTapped:" destination="4Dl-aV-9Ft" eventType="touchUpInside" id="42p-hk-IiA"/>
+                                    <action selector="red:" destination="Kxm-dz-H0m" eventType="touchUpInside" id="Mss-dS-Ypa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1058,6 +1061,15 @@
                         <viewLayoutGuide key="safeArea" id="GsE-uy-6Up"/>
                     </view>
                     <navigationItem key="navigationItem" id="DKz-Sg-uAr"/>
+                    <connections>
+                        <outlet property="kabulet" destination="3vE-Jw-kFr" id="aGI-Jj-pyF"/>
+                        <outlet property="reddet" destination="Iiu-Nd-dAp" id="Lwl-9T-h7c"/>
+                        <outlet property="view1" destination="zNH-Hy-xlO" id="b6F-FO-9Wd"/>
+                        <outlet property="view2" destination="dcd-Pp-3ul" id="f5j-WE-UCc"/>
+                        <outlet property="view3" destination="rmw-B7-uMi" id="HiG-v7-oJW"/>
+                        <outlet property="view4" destination="nC6-j4-tCa" id="Rq5-xJ-uVm"/>
+                        <outlet property="view5" destination="iXa-Le-CKQ" id="HqN-3r-dZr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVz-5B-u7N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
